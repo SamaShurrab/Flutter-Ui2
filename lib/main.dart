@@ -63,16 +63,20 @@ class MyApp extends StatelessWidget {
                 color: const Color(0xD4F1D571),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  spacing: 10,
                   children: [
-                    Icon(
-                      Icons.phone,
-                      color: const Color.fromRGBO(28, 58, 83, 1),
-                    ),
-                    Text(
-                      '0567778285',
-                      style: TextStyle(
+                    Expanded(
+                      child: Icon(
+                        Icons.phone,
                         color: const Color.fromRGBO(28, 58, 83, 1),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        '0567778285',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
@@ -82,17 +86,21 @@ class MyApp extends StatelessWidget {
                 padding: EdgeInsets.symmetric(vertical: 10),
                 color: const Color(0xD4F1D571),
                 child: Row(
-                  spacing: 10,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.location_on,
-                      color: const Color.fromRGBO(28, 58, 83, 1),
-                    ),
-                    Text(
-                      'Palestine-Gaza-Khanyounis',
-                      style: TextStyle(
+                    Expanded(
+                      child: Icon(
+                        Icons.location_on,
                         color: const Color.fromRGBO(28, 58, 83, 1),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        'Palestine-Gaza-Khanyounis',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
