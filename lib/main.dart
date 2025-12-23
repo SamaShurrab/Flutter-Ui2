@@ -63,16 +63,20 @@ class MyApp extends StatelessWidget {
                 color: const Color(0xD4F1D571),
                 child: Row(
                   spacing: 10,
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.phone,
-                      color: const Color.fromRGBO(28, 58, 83, 1),
-                    ),
-                    Text(
-                      '0567778285',
-                      style: TextStyle(
+                    Expanded(
+                      child: Icon(
+                        Icons.phone,
                         color: const Color.fromRGBO(28, 58, 83, 1),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        '0567778285',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
@@ -85,14 +89,19 @@ class MyApp extends StatelessWidget {
                   spacing: 10,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.location_on,
-                      color: const Color.fromRGBO(28, 58, 83, 1),
-                    ),
-                    Text(
-                      'Palestine-Gaza-Khanyounis',
-                      style: TextStyle(
+                    Expanded(
+                      child: Icon(
+                        Icons.location_on,
                         color: const Color.fromRGBO(28, 58, 83, 1),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        'Palestine-Gaza-Khanyounis',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
@@ -105,11 +114,20 @@ class MyApp extends StatelessWidget {
                   spacing: 10,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset('assets/images/fac.png', width: 30, height: 30),
-                    Text(
-                      'www.Facebook.com/samashurrab',
-                      style: TextStyle(
-                        color: const Color.fromRGBO(28, 58, 83, 1),
+                    Expanded(
+                      child: Image.asset(
+                        'assets/images/fac.png',
+                        width: 30,
+                        height: 30,
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        'www.Facebook.com/samashurrab',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
@@ -122,15 +140,20 @@ class MyApp extends StatelessWidget {
                   spacing: 10,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(
-                      'assets/images/instagram.png',
-                      width: 30,
-                      height: 30,
+                    Expanded(
+                      child: Image.asset(
+                        'assets/images/instagram.png',
+                        width: 30,
+                        height: 30,
+                      ),
                     ),
-                    Text(
-                      'www.instagram.com/samashurrab',
-                      style: TextStyle(
-                        color: const Color.fromRGBO(28, 58, 83, 1),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        'www.instagram.com/samashurrab',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
@@ -143,15 +166,20 @@ class MyApp extends StatelessWidget {
                   spacing: 10,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(
-                      'assets/images/linkedin.png',
-                      width: 30,
-                      height: 30,
+                    Expanded(
+                      child: Image.asset(
+                        'assets/images/linkedin.png',
+                        width: 30,
+                        height: 30,
+                      ),
                     ),
-                    Text(
-                      'www.linkedin.com/samashurrab',
-                      style: TextStyle(
-                        color: const Color.fromRGBO(28, 58, 83, 1),
+                    Expanded(
+                      flex: 3,
+                      child: Text(
+                        'www.linkedin.com/samashurrab',
+                        style: TextStyle(
+                          color: const Color.fromRGBO(28, 58, 83, 1),
+                        ),
                       ),
                     ),
                   ],
