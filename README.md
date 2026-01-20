@@ -35,7 +35,7 @@ flutter-ui-task1/
 
 You can download the latest version of **Flutter Ui 2** from GitHub Releases:
 
-👉 [Download Latest APK](https://github.com/USERNAME/Flutter-Ui-1/releases/latest)
+👉 [Download Latest APK](https://github.com/SamaShurrab/Flutter-Ui-2/releases/latest)
 
 
 
